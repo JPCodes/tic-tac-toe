@@ -39,7 +39,7 @@ Board.prototype.modifySpace = function(markPosition) {
 var arrayX = [];
 
 var winnerCheckX = function(board) {
-	debugger;
+
 
 	for (i = 0; i < newBoard["spacesCondition"].length; i++) {
 
@@ -117,7 +117,7 @@ for (i = 0; i < win8.length; i++) {
 }
 
 if (somethingVar.indexOf("-") < 0 || somethingVar2.indexOf("-") < 0 || somethingVar3.indexOf("-") < 0 || somethingVar4.indexOf("-") < 0 || somethingVar5.indexOf("-") < 0 || somethingVar6.indexOf("-") < 0 || somethingVar7.indexOf("-") < 0 || somethingVar8.indexOf("-") < 0) {
-  console.log("Winner X");
+	$("#winnerOutput h1").text("Winner X");
 } else {
   console.log("Not winner X")
 }
@@ -127,7 +127,7 @@ if (somethingVar.indexOf("-") < 0 || somethingVar2.indexOf("-") < 0 || something
 var arrayO = [];
 
 var winnerCheckO = function(board) {
-	debugger;
+
 
 	for (i = 0; i < newBoard["spacesCondition"].length; i++) {
 
@@ -205,7 +205,7 @@ for (i = 0; i < win8.length; i++) {
 }
 
 if (somethingVar.indexOf("-") < 0 || somethingVar2.indexOf("-") < 0 || somethingVar3.indexOf("-") < 0 || somethingVar4.indexOf("-") < 0 || somethingVar5.indexOf("-") < 0 || somethingVar6.indexOf("-") < 0 || somethingVar7.indexOf("-") < 0 || somethingVar8.indexOf("-") < 0) {
-  console.log("Winner O");
+	$("#winnerOutput h1").text("Winner O");
 } else {
   console.log("Not winner O")
 }
@@ -261,7 +261,7 @@ var spaceSpot;
 		});
 
 		$("#didIwin").click(function() {
-			debugger;
+
 			var boardCond = newBoard.spacesCondition;
 			winnerCheckX(boardCond);
 			winnerCheckO(boardCond);

@@ -1,21 +1,52 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('../img/bg.png') top left repeat;
+  color: #fff;
+}
+
 h1 {
   min-height: 100px;
-  width: 100px;
-  background: #70a1ef;
+  width: 100%;
+  background: #667D85;
   border: 3px solid #000;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 14em;
+  padding-top: 20px;
+}
+
+#special {
+  font-size: 40pt;
+  padding-top: 0;
+}
+
+#winnerOutput {
+  font-size: .5em;
+  clear: both;
+}
+
+.container {
+  height: 100%;
 }
 
 .board {
-  width: 30%;
-  margin: 0 auto;
+  width: 100%;
+  height: 50%;
+  margin: 15px auto;
   display: none;
 }
 
 .grid {
   width: 33%;
   float: left;
+}
+
+.grid h1 {
+  height: 250px;
 }
 
 button {
