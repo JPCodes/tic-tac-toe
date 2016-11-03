@@ -83,10 +83,3 @@ var spaceSpot;
 
 
 });
-
-
-// $(".grid").click(function() {
-// 	$(this).on().find("span").text(playerTurn());
-// 	$(this).off();
-//
-// });
