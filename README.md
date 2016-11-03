@@ -20,15 +20,15 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Specifications List
 
-* Knows options are limited to Xs and Os (D, [error])
+* Knows options are limited to Xs and Os (D, [error]) (OK)
 
-* Knows we have a grid
+* Knows we have a grid (OK)
 
-* Knows to only place Xs and Os in 9 grid squares
+* Knows to only place Xs and Os in 9 grid squares (OK)
 
-* Knows can't place two symbols in a single square
+* Knows there are two players that switch turns (OK)
 
-* Knows there are two players that switch turns
+* Knows can't place two symbols in a single square (OK)
 
 * Knows win conditions (vertical, diagonal, horizontal)
 

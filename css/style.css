@@ -10,9 +10,14 @@ h1 {
 .board {
   width: 30%;
   margin: 0 auto;
+  display: none;
 }
 
 .grid {
   width: 33%;
   float: left;
+}
+
+button {
+  margin-top: 15px;
 }
